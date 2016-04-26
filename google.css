@@ -1,27 +1,205 @@
-#blue   {
-    color: white;
-    background-color: blue;
-    height: 100px;
-    width: 100px;
+body    {
+    position: relative;
 }
 
-#yellow   {
-    color: white;
-    background-color: yellow;
-    height: 100px;
-    width: 100px;
+header  {
+    height: 50px;
+    margin-top: 15px;
 }
 
-#red  {
-    color: white; 
-    background-color: red;
-    height: 100px;
-    width: 100px;
+nav ul li  {
+    display: block;
+    float: right;
+    line-height: 30px;
+    margin-right: 16px;
+    font-size: 13px;
+    font-family: arial,sans-serif;
 }
 
-#green   {
-    color: white;
-    background-color: green;
-    height: 100px;
-    width: 100px;
+nav li a    {
+    color: #404040;
+    text-decoration: none;
+}
+
+nav li a:hover  {
+    color: #000000;
+    text-decoration: underline;
+}
+
+#sign-in    {
+    height: 30px;
+    width: 70px;
+    margin-right: 22px;
+    background-color: #4285f4;
+    border-radius: 2px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+#sign-in a:hover    {
+    text-decoration: none;
+    cursor: default;
+}
+
+#sign-in a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#apps img  {
+    height: 24px;
+    width: 24px;
+    opacity: 0.6;
+    margin-top:  3px;
+}
+
+#center img   {
+    height: 90px;
+    width: 270px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+    
+#center {
+    position: relative;
+    width: 100%;
+    height: 220px;
+}
+
+#search-container {
+    width: 100%;
+    height: 120px;
+    opacity: 1;
+    margin-top: 20px;
+    position: relative;
+    
+}
+
+#form_border      {
+    width: 560px;
+    height: 40px;
+    border: 1px solid #4D90FE;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+#search-button  {
+    height: 35px;
+    width: 130px;
+    line-height: 35px;
+    background-color: #F5F5F5;
+    border: 1px solid #f5F5F5;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    color: #737373;
+    display: inline-block;
+    position: relative;
+    margin-right: 8px;
+    border-radius: 2px;
+    font-family: arial, sans-serif;
+    }
+
+#lucky-button   {
+    height: 35px;
+    width: 140px;
+    line-height: 35px;
+    background-color: #F5F5F5;
+    border: 1px solid #f5F5F5;
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    color: #737373;
+    display: inline-block;
+    position: absolute;
+    border-radius: 2px;
+    font-family: arial, sans-serif;
+
+}
+
+#main-buttons   {
+    width: 306px;
+    height: 50px;
+    margin-top: 25px;   
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}   
+
+#search-bar {
+    height: 40px;
+    width: 400px;
+}
+
+input   {
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    margin-left: 8px; 
+}
+
+/* To remove border and smaller form in Safari*/
+input[type=search] {
+        -moz-appearance:none;
+        -webkit-appearance:none;
+}
+
+/* To remove the blue fuzzy outline from the form in Safari*/
+input:focus {
+        outline-color: transparent;
+        outline-style: none;
+}
+
+#lucky-button:hover, #search-button:hover {
+    border: 1px solid #bfbfbf;
+}
+
+footer  {
+    width: 100%;
+    height: 40px;
+    display: block;
+    background-color: #F2F2F2;
+    border-top: 1px solid #e6e6e6;
+    bottom: 0;
+    position: fixed;
+}
+
+footer li a    {
+    color: #666666;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    color: #666666;
+    text-decoration: underline;
+} 
+
+.f-left  {
+    float: left;
+    margin-right: 30px;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+   color: #666666;
+   line-height: 40px;
+}
+
+footer ul:first-child   {
+    margin-left: 30px;
+}
+
+.f-right    {
+    float: right;
+    margin-right: 31px;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    color: #666666;
+    line-height: 40px;
 }
