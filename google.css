@@ -172,6 +172,11 @@ footer  {
     position: fixed;
 }
 
+footer ul   {
+    list-style-type: none;
+}
+    
+
 footer li a    {
     color: #666666;
     text-decoration: none;
